@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SunView">
+        <attr name="roundbackgroundcolor" format="color"></attr>
+        <attr name="roundcolor" format="color"></attr>
+        <attr name="roundWidth" format="dimension" />
+        <attr name="radius" format="dimension"/>
+        <attr name="sunriseText" format="string" />
+        <attr name="sunTextColor" format="color" />
+        <attr name="sunTextSize" format="dimension" />
+        <attr name="sunsetText" format="string" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/tv_hour_time"
+        style="@style/weather_item_style"
+        android:text="17时"
+        />
+
+    <ImageView
+        android:id="@+id/iv_weather_icon"
+        style="@style/weather_item_style"
+        android:text="天气"
+        android:layout_width="10dp"
+        android:layout_height="30dp"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="fitXY"
+        />
+    <TextView
+        android:id="@+id/tv_hour_tt"
+        style="@style/weather_item_style"
+        android:text="3℃"
+        />
+    <TextView
+        android:id="@+id/tv_hour_vis"
+        style="@style/weather_item_style"
+        android:text="12公里"
+        />
+    <TextView
+        android:id="@+id/tv_hour_wd"
+        style="@style/weather_item_style"
+        android:text="南风"
+        />
+    <TextView
+        android:id="@+id/tv_hour_ws"
+        style="@style/weather_item_style"
+        android:text="1.4米/秒"
+        />
+
+    <TextView
+        android:id="@+id/tv_hour_cn"
+        style="@style/weather_item_style"
+        android:text="3成"
+        />
+
+</LinearLayout>

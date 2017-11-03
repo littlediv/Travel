@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="每小时"
+                android:textSize="20dp"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/tv_all_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="未来168小时"
+                android:textSize="14dp"
+                android:textColor="#000"/>
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                style="@style/weather_item_style"
+                android:text="时间"
+                />
+
+            <TextView
+                style="@style/weather_item_style"
+                android:text="天气"
+                />
+            <TextView
+                style="@style/weather_item_style"
+                android:text="温度"
+                />
+            <TextView
+                style="@style/weather_item_style"
+                android:text="能见度"
+                />
+            <TextView
+                style="@style/weather_item_style"
+                android:text="风向"
+                />
+            <TextView
+                style="@style/weather_item_style"
+                android:text="风速"
+                />
+
+            <TextView
+                style="@style/weather_item_style"
+                android:text="低云量"
+                />
+
+        </LinearLayout>
+
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_weather_hour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+
+
+    </LinearLayout>
+
+</LinearLayout>
